@@ -80,7 +80,7 @@ const MESSAGES: Message[] = [
 
 interface Props {
   onComplete: (score: number) => void;
-  currentScore: number;
+  currentScore?: number;
 }
 
 export default function GolpeOuVerdade({ onComplete, currentScore }: Props) {

@@ -173,7 +173,6 @@ export default function QuizPage({ progress, onProgressUpdate }: Props) {
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [finished, setFinished] = useState(false);
   const [showCertificate, setShowCertificate] = useState(false);
-  const [startTime] = useState(Date.now());
 
   const question = QUESTIONS[currentIndex];
   const isCorrect = selected === question.correctIndex;
