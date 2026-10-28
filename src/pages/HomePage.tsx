@@ -76,7 +76,7 @@ export default function HomePage({ progress, onNavigate }: HomePageProps) {
               transition={{ delay: 0.2 }}
             >
               <Shield size={16} className="text-cyber-cyan" />
-              <span className="text-sm text-cyber-cyan font-medium">Plataforma de Educação em Segurança Digital</span>
+              <span className="text-slate-500 font-medium">Plataforma de Educação em Segurança Digital</span>
             </motion.div>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight">

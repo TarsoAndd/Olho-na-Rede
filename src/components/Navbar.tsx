@@ -33,8 +33,8 @@ export default function Navbar({ activePage, onNavigate, progress }: NavbarProps
             <Shield size={18} className="text-white" />
           </div>
           <span className="font-bold text-lg hidden sm:block">
-            <span className="text-cyber-cyan">Cyber</span>
-            <span className="text-white">Quest</span>
+            <span className="text-cyber-cyan">Olho</span>
+            <span className="text-white"> na Rede</span>
           </span>
         </motion.button>
 

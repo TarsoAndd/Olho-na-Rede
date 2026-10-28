@@ -129,7 +129,7 @@ function CertificateModal({ score, total, onClose }: { score: number; total: num
 
           <div className="text-5xl mb-4">🏆</div>
           <p className="text-yellow-400/80 text-xs uppercase tracking-widest mb-1">Certificado de Conclusão</p>
-          <h2 className="text-2xl font-black text-white mb-1">CyberQuest</h2>
+          <h2 className="text-2xl font-black text-white mb-1">Olho na Rede</h2>
           <p className="text-cyber-cyan text-sm mb-6">Aprenda a Navegar com Segurança</p>
 
           <div className="border-t border-yellow-400/20 border-b py-4 mb-6">
