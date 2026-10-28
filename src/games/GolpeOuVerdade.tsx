@@ -83,7 +83,7 @@ interface Props {
   currentScore?: number;
 }
 
-export default function GolpeOuVerdade({ onComplete, currentScore }: Props) {
+export default function GolpeOuVerdade({ onComplete }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answered, setAnswered] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState<boolean | null>(null);
